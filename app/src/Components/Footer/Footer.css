@@ -1,0 +1,120 @@
+  *{ 
+    /* box-sizing: border-box;
+        width: 100%; */
+  }
+
+  body{
+    display: flex;
+    justify-content: flex-end;
+    min-height: 100vh;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .all{
+    margin-top: 31.3%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+
+  }
+
+  .FooterAll {
+    position: relative;
+    width: 100%;
+    padding: 20px 50px ;
+    display: flex;
+    justify-content: center;
+    margin-right: 50%;
+    margin-left: 0px;
+    min-height: 300px;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#cocial_icon , p{
+position: relative;
+display: flex;
+justify-content: center;
+width: 100%;
+align-items: center;
+box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#cocial_icon > li{
+  width: 100px;
+  margin-top: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#cocial_icon > li > a {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  margin: 0 10px; 
+  display: inline-block ;
+  transition: 0.5s;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#cocial_icon > li > a:hover{
+  transform: translateY(-15px);
+  background-color: rgb(8, 30, 224);
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.menu >li{
+  color:rgb(0, 0, 0);
+  list-style: none;
+  width: 150px;
+  margin-top: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.menu > li > a {
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+  margin: 0 10px; 
+  display: inline-block ;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.menu > li > a:hover {
+  opacity: 5;
+  background-color: rgb(8, 30, 224);
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.p2{
+  color: rgb(0, 0, 0);
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}

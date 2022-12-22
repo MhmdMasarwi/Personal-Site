@@ -9,14 +9,6 @@
     margin: 10px -30px;
     display: flex;
 }
-img{
-    max-width: 100%
-
-}
-.image1{
-    flex-basis: 40%
-    
-}
 .header1 .row{
     margin: 60px 60px;
 }

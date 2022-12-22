@@ -1,13 +1,9 @@
 import React from 'react'
 import './AboutUs.css';
-import HomePage from '../../assetss/HomePage.jpeg';
 
 const AboutUs =() =>{
   return (
     <div className='header1'>
-        <div className='image1'>
-                {/* <img src={HomePage}/> */}
-                </div>
                 <div className='contaner'>
           <div className='row'>
             <div className='col-md-6'>
