@@ -1,15 +1,4 @@
-  *{ 
-    /* box-sizing: border-box;
-        width: 100%; */
-  }
 
-  body{
-    display: flex;
-    justify-content: flex-end;
-    min-height: 100vh;
-    box-sizing: border-box;
-    width: 100%;
-  }
 
   .all{
     margin-top: 31.3%;
@@ -67,7 +56,7 @@ ul{
 
 #cocial_icon > li > a:hover{
   transform: translateY(-15px);
-  background-color: rgb(8, 30, 224);
+  background-color: rgb(137, 146, 222);
   box-sizing: border-box;
   width: 100%;
 }
@@ -104,9 +93,10 @@ ul{
 
 .menu > li > a:hover {
   opacity: 5;
-  background-color: rgb(8, 30, 224);
+  background-color: rgb(137, 146, 222);
   box-sizing: border-box;
   width: 100%;
+  cursor: pointer;
 }
 
 .p2{
