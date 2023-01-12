@@ -5,18 +5,41 @@ const AboutUs =() =>{
   return (
     <div className='header1'>
                 <div className='contaner'>
-          <div className='row'>
-            <div className='col-md-6'>
-                <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.</p>
-                <button >order now</button>
-                <button>learn more</button>
-                </div>
-            </div>
-        </div>
-    </div>
-   
+         
+                <h2 className='h2'>פרטים</h2>
+                <h4 className='h4'>:מורשה נגישות </h4>
+                <div className='text1'>
+                <p className='par' >
+                  הוא אדם שתפקידו לסייע באפיון, תכנון, בקרה, ופיקוח על יישום דרישות להתאמות נגישות השירות ללקוחות עם מוגבלות על פי דרישות חוק שוויון זכויות לאנשים עם מוגבלות, כך שאנשים עם מוגבלות יוכלו לצרוך שירותים אלה באופן שוויוני, עצמאי ובטיחותי.
+                  יש להבחין בין מורשה נגישות מבנים תשתיות וסביבה (מתו"ס), האחראי לרכיבים הבנויים והתשתיתיים, לבין מורשה נגישות השירות, האחראי להתאמות בשירות, כולל אביזרים (ריהוט, שילוט, מערכות שמע) ונהלים (פטור מתור במקרים מסוימים, אפשרות להסתייע במלווה ובחיית שירות, התאמות בדרכי היבחנות).
+                </p>
+                <h4 className='h42'>:תפקיד מורשה הנגישות</h4>
+                <p className='par'>
+                מורשה נגישות מנחה את ספקי השירותים ביצירת תנאים שיבטיחו את מתן השירות לאנשים עם מוגבלות באופן שוויוני, וברמת נוחות, איכות ובטיחות כפי שניתנת לכלל הציבור. תנאים אלו נוספים על תנאי נגישות המבנה. דוגמה: שירות הניתן במבנה הומה אדם ודורש מעבר בין מספר נותני שירות, אינו נגיש לאנשים עם מוגבלות שכלית, המתקשים להתמצא, גם אם המבנה עצמו נגיש.
+                 מורשי נגישות השירות מנחים את החייבים בנגישות לגבי:ש               
+                </p>
+                <ul className='ul'>
+                     <li className='li'>זיהוי והסרת חסמי נגישות הקיימים בתהליכי שירות ובאופן בו השירות ניתן בפועל, והסרתם -</li>
+                     <li className='li'>התאמת עיצוב הפנים של המקומות בהם ניתן השירות – ריהוט, שילוט, אמצעי עזר וכדומה -</li>
+                     <li className='li'>התאמת אמצעי מתן השירות -</li>
+                     <li className='li'>התאמת המידע הנמסר ללקוחות בכתב ובעל פה -</li>
+                     <li className='li'>הדרכת עובדים לגבי מתן שירות נגיש לאנשים עם מוגבלות -</li>
+                     <li className='li'>התאמות נוספות במקומות המיועדים לאנשים עם מוגבלות - כגון משרדי המוסד לביטוח לאומי, לשכות רווחה, מעונות יום שיקומיים ומתקני ספורט המיועדים לאנשים עם מוגבלות וכדומה -</li>
+                     <li className='li'>ייעוץ למעסיקים המבקשים להתאים את מקום העבודה לעובד עם מוגבלות ולקבל לשם כך מימון מהמדינה -</li>
+                     <li className='li'>מיפוי צרכים-סקר נגישות -</li>
+                     <li className='li'>הכנת עבודה להנגשת המקום, בתיאום עם בעל העסק -</li>
+                     <li className='li'>הנגשת העסק לקבלת רישיון מול מחלקת רישוי עסקים וגורמים נוספים -</li>
+                     <li className='li'>הנגשת אתרי אינטרנט ואפליקציות -</li>
 
+                </ul>
+
+                </div>
+                <div className='buttons'>
+                {/* <button>צור קשר</button> */}
+                <button onClick={'#'}>צור קשר</button>
+                </div>
+                </div>
+             </div>
   )
 }
 
