@@ -6,18 +6,19 @@ const AboutUs = () => {
   return (
     <div className="header1">
       <div className="contaner">
-        <h1>
-          <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .pauseFor(10)
-                .deleteAll()
-                .typeString("אודותינו")
-                .start("");
-            }}
-          />
-        </h1>
-        <h2 className="h2">פרטים</h2>
+        <h2 className="h2">
+          <h1>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .pauseFor(10)
+                  .deleteAll()
+                  .typeString("אודותינו")
+                  .start("");
+              }}
+            />
+          </h1>
+        </h2>
         <h4 className="h4">: מורשה נגישות</h4>
         <div className="text1">
           <p className="par">
