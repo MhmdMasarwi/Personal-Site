@@ -1,7 +1,7 @@
 
 
   .all{
-    margin-top: 31.3%;
+    margin-top: 10%;
     border: 1px solid black;
     box-sizing: border-box;
     width: 100%;
@@ -16,7 +16,7 @@
     justify-content: center;
     margin-right: 50%;
     margin-left: 0px;
-    min-height: 300px;
+    min-height: 200px;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
@@ -68,6 +68,7 @@ ul{
     width: 100%;
     align-items: center;
     box-sizing: border-box;
+    margin-right: 50px;
 }
 
 .menu >li{

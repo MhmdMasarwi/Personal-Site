@@ -10,18 +10,18 @@ function Footer() {
     <div className='all'>
        
       <div className = 'FooterAll'>
-        <ul id='cocial_icon'>
+        {/* <ul id='cocial_icon'>
           <li><a href='#'><FacebookIcon className='Facebook'/></a></li>
           <li><a href='#'><PhoneIcon/></a></li>
           <li><a href='#'> <MailIcon/></a></li>
           <li><a href='#'><WhatsAppIcon/></a></li>
-        </ul>
+        </ul> */}
 
         <ul className="menu">
-         <li><a id='menu1'>Home</a></li>
-         <li><a id='menu2'>About</a></li>
-         <li><a id='menu3'>Contact</a></li>
-         <li><a id='menu4'>Home</a></li>
+         <li><a id='menu1' href=''>שירותים שלנו</a></li>
+         <li><a id='menu2'>פרטים</a></li>
+         {/* <li><a id='menu3'>Contact</a></li>
+         <li><a id='menu4'>Home</a></li> */}
 
          </ul>
          <p className='p2'>
