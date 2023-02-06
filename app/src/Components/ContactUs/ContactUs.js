@@ -12,7 +12,7 @@ function App() {
     <div className="App"> 
     
       <Typography gutterBottom variant="h3" align="center">
-        Rami,Ehab
+        Rami
        </Typography>
       <Grid>
         <Card style={{ maxWidth: 450, padding: "20px 5px", margin: "0 auto" }}>
