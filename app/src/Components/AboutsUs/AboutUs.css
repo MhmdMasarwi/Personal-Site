@@ -23,6 +23,7 @@
   width: 85%;
   /* border: 1px black solid; */
   margin-left: 10%;
+
 }
 /* .par{
     font-family: 'Merriweather', serif;
@@ -63,7 +64,7 @@
     box-sizing: border-box;
     text-align: center;
     color: #fff;
-    margin: 50px 10px 20px 0px;
+    margin: 50  px 10px 20px 0px;
     font-weight: bold;
     font-size: 15px;
     text-transform: uppercase;
