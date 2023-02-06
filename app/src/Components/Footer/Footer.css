@@ -1,43 +1,41 @@
-
-
-  .all{
-    margin-top: 31.3%;
-    border: 1px solid black;
-    box-sizing: border-box;
-    width: 100%;
-
-  }
-
-  .FooterAll {
-    position: relative;
-    width: 100%;
-    padding: 20px 50px ;
-    display: flex;
-    justify-content: center;
-    margin-right: 50%;
-    margin-left: 0px;
-    min-height: 300px;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
+.all {
+  margin-top: 10%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-#cocial_icon , p{
-position: relative;
-display: flex;
-justify-content: center;
-width: 100%;
-align-items: center;
-box-sizing: border-box;
+.FooterAll {
+  position: relative;
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  margin-right: 50%;
+  margin-left: 0px;
+  min-height: 200px;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
 }
 
-ul{
+#cocial_icon,
+p {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+ul {
   list-style: none;
   box-sizing: border-box;
   width: 100%;
 }
 
-#cocial_icon > li{
+#cocial_icon > li {
   width: 100px;
   margin-top: 20px;
   text-align: center;
@@ -47,14 +45,14 @@ ul{
 #cocial_icon > li > a {
   color: rgb(0, 0, 0);
   font-size: 2em;
-  margin: 0 10px; 
-  display: inline-block ;
+  margin: 0 10px;
+  display: inline-block;
   transition: 0.5s;
   box-sizing: border-box;
   width: 100%;
 }
 
-#cocial_icon > li > a:hover{
+#cocial_icon > li > a:hover {
   transform: translateY(-15px);
   background-color: rgb(137, 146, 222);
   box-sizing: border-box;
@@ -62,16 +60,17 @@ ul{
 }
 
 .menu {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-    box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  margin-right: 50px;
 }
 
-.menu >li{
-  color:rgb(0, 0, 0);
+.menu > li {
+  color: rgb(0, 0, 0);
   list-style: none;
   width: 150px;
   margin-top: 20px;
@@ -82,8 +81,8 @@ ul{
 .menu > li > a {
   font-size: 1.2em;
   color: rgb(0, 0, 0);
-  margin: 0 10px; 
-  display: inline-block ;
+  margin: 0 10px;
+  display: inline-block;
   transition: 0.5s;
   text-decoration: none;
   opacity: 0.75;
@@ -99,7 +98,7 @@ ul{
   cursor: pointer;
 }
 
-.p2{
+.p2 {
   color: rgb(0, 0, 0);
   font-size: 1.1em;
   text-align: center;
