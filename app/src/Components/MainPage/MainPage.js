@@ -12,24 +12,6 @@ function ListItem({ text }) {
 function MainPage() {
   return (
     <div className="mainpage">
-      <div className="opacity__window"></div>
-      <div className="mainpage__content">
-        <section className="mainPage_content">this is the main page</section>
-        <ul className="subject__list">
-          <li>
-            <ListItem text={"About Us"} />
-          </li>
-          <li>
-            <ListItem text={"About Us"} />
-          </li>
-          <li>
-            <ListItem text={"About Us"} />
-          </li>
-          <li>
-            <ListItem text={"About Us"} />
-          </li>
-        </ul>
-      </div>
     </div>
   );
 }
